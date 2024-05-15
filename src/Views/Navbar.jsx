@@ -1,10 +1,11 @@
 
 const Navbar = (params) =>{
-    console.log(params.links)
+    var links = params.links
+    console.log(links)
     return(
-        <div>
+        <div className="navbar">
             <ul>
-                {(params.links).foreach((link) => <li><a href="#">{link}</a></li>)}
+                {links.map((link) => <li><a href={link}>{link}</a></li>)}
             </ul>
         </div>
     )
