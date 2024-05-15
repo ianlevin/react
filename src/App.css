@@ -2,9 +2,33 @@
   font-weight: bold;
   font-size: 1.8rem;
   color: black;
-  padding-left: 3rem;
+  padding-left: 5rem;
   text-decoration: none;
 }
 .binker{
-  width: 300px;
+  width: 600px;
+  padding-left: 7rem;
+}
+
+.presentacion{
+  background-color: #f4f6f8;
+}
+
+.presentacionul li{
+  display: flex;
+  flex-direction: row;
+}
+.presentacionul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.presentaciontexto{
+  display: block;
+}
+
+.presentacionimagen{
+  display: flex;
+  flex-direction: row;
 }
