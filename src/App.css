@@ -59,3 +59,18 @@
 .presentaciontexto button{
   font-weight: 500;
 }
+
+.informacion h1{
+  font-size: 1.5rem;
+  font-family: 'Segoe UI';
+}
+
+.informacion p{
+  width: 500px;
+}
+
+.informacion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
