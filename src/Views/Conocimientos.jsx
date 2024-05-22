@@ -8,12 +8,24 @@ import web from '../images/icons/web.png'
 const Conocimientos = (props) =>{
     return(
         <div className='conocimientos'>
+            <br />
             <h2>Conocimientos</h2>
+            <br />
             <div className='iconosconocimiento'>
-            <Iconolink icono = {codigo}/>
-            <Iconolink icono = {c}/>
-            <Iconolink icono = {sql}/>
-            <Iconolink icono = {web}/>
+                <ul>
+                    <li><Iconolink icono = {codigo}/>
+                    <p>Consola</p>
+                    </li>
+                    <li><Iconolink icono = {c}/>
+                    <p>C#</p>
+                    </li>
+                    <li><Iconolink icono = {sql}/>
+                    <p>SQL</p>
+                    </li>
+                    <li><Iconolink icono = {web}/>
+                    <p>Desarrollo web</p>
+                    </li>
+                </ul>
             </div>
             
         </div>

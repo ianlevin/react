@@ -86,12 +86,25 @@
 .informacion h5{
   font-size: 1rem;
 }
+.conocimientos h2{
+  text-align: center;
+}
 .conocimientos{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+.iconosconocimiento ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
 .iconosconocimiento img {
-  width: 10rem;
+  width: 12rem;
   padding-left: 5rem;
+}
+.iconosconocimiento p{
+  padding-left: 5rem;
+  font-weight: bold;
 }
