@@ -28,6 +28,11 @@
 .presentaciontexto{
   display: block;
 }
+.presentaciontexto img{
+  width: 20px;
+  padding-bottom: 1rem;
+  padding-left: 2px;
+}
 
 .presentacionimagen{
   display: flex;
@@ -71,6 +76,22 @@
 
 .informacion{
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.informacion img{
+  width: 400px;
+  padding-left: 10rem;
+}
+.informacion h5{
+  font-size: 1rem;
+}
+.conocimientos{
+  display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+}
+.iconosconocimiento img {
+  width: 10rem;
+  padding-left: 5rem;
 }

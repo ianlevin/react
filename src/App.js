@@ -5,6 +5,7 @@ import Presentacion from './Views/Presentacion';
 import presentacion from './Views/Presentacion'
 import Navbar from '../src/Views/Navbar'
 import Informacion from '../src/Views/Informacion'
+import Conocimientos from '../src/Views/Conocimientos'
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
         <Presentacion/>
       </div>
       <Informacion/>
+      <Conocimientos/>
     </div>
     
   );
