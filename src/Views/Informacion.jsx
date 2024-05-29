@@ -2,7 +2,7 @@ import fotoian from '../images/yo.jpeg'
 
 const Informacion = (params) =>{
 return(
-    <div className="informacion">
+    <div className="informacion" id="Educacion"> 
         <div>
             <h1>Hola! Me llamo Ian Levin</h1>
             <p>Soy Estudiante de ORT Argentina de la especialidad de informática.

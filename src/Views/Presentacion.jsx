@@ -7,13 +7,13 @@ import github from '../images/icons/github.png'
 const Presentacion = (params) =>{
     return(
         <div>
-            <div className="presentacionimagen" >
+            <div className="presentacionimagen" id="">
                 <img className="binker" src={imgbinker} alt="imagen" />
                 <div className="presentaciontexto" >
                     <p>HOLA!</p>
                     <h1>Soy Ian Levin!</h1>
                     <br/>
-                    <h4>Licenciado en sistemas</h4>
+                    <h4>Estudiante de ingenieria en informática</h4>
                     <div>
                         <Iconolink icono = {linkedin}/>
                         <Iconolink icono = {github}/>

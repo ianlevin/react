@@ -6,18 +6,20 @@ import presentacion from './Views/Presentacion'
 import Navbar from '../src/Views/Navbar'
 import Informacion from '../src/Views/Informacion'
 import Conocimientos from '../src/Views/Conocimientos'
+import Educacion from '../src/Views/Educacion'
 
 function App() {
   
   return (
     <div>
-      <Navbar links = {["Acerca de mi ", "Conocimientos", "Experiencia", "Educación", "Certificaciones", "Contacto"]}/>
+      <Navbar links = {["Acerca de mi ", "Conocimientos", "Experiencia", "Educacion", "Certificaciones", "Contacto"]}/>
       <div className="presentacion">
         <Link class = "nombre" link = "#" texto = "Ian Levin"/>
         <Presentacion/>
       </div>
       <Informacion/>
       <Conocimientos/>
+      <Educacion/>
     </div>
     
   );

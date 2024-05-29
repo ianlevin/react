@@ -7,7 +7,7 @@ import web from '../images/icons/web.png'
 
 const Conocimientos = (props) =>{
     return(
-        <div className='conocimientos'>
+        <div className='conocimientos' id="Conocimientos">
             <br />
             <h2>Conocimientos</h2>
             <br />
